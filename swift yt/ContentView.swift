@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+   @State var tap:Int = 0
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Button(action:{
+                self.tap += 1
+            }){
+                Text("click here").font(.body)
+            }.foregroundColor(.orange)
+                .padding(.all)
+                .background(.black)
+                .cornerRadius(16)
+        }
+        Text("button click \(tap) times")
     }
 }
 
