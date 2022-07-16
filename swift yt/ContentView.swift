@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
    @State var tap:Int = 0
+
     var body: some View {
-        VStack{
+        VStack(){
             Button(action:{
                 self.tap += 1
             }){
@@ -19,13 +20,16 @@ struct ContentView: View {
                 .padding(.all)
                 .background(.black)
                 .cornerRadius(16)
+            Text("button click \(tap) times")
         }
-        Text("button click \(tap) times")
+        
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+            ContentView()
+        
     }
 }
