@@ -22,6 +22,7 @@
 		9FD5B360288322C000D133F1 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B35F288322C000D133F1 /* ToggleView.swift */; };
 		9FD5B39D288474B500D133F1 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B39C288474B500D133F1 /* OnBoardingView.swift */; };
 		9FD5B39F288479F000D133F1 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD5B39E288479F000D133F1 /* CheckBoxView.swift */; };
+		F5C84C48297DA31500D240B0 /* TextViewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C84C47297DA31500D240B0 /* TextViewScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		9FD5B35F288322C000D133F1 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		9FD5B39C288474B500D133F1 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
 		9FD5B39E288479F000D133F1 /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		F5C84C47297DA31500D240B0 /* TextViewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 				9FD5B35F288322C000D133F1 /* ToggleView.swift */,
 				9FD5B39C288474B500D133F1 /* OnBoardingView.swift */,
 				9FD5B39E288479F000D133F1 /* CheckBoxView.swift */,
+				F5C84C47297DA31500D240B0 /* TextViewScreen.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				9F0FC772278C9A8F00A0CEC9 /* LoginView.swift in Sources */,
 				9F85474A2789FB8C0052B2FD /* ContentView.swift in Sources */,
 				9FD5B39D288474B500D133F1 /* OnBoardingView.swift in Sources */,
+				F5C84C48297DA31500D240B0 /* TextViewScreen.swift in Sources */,
 				9F0FC776278C9F8D00A0CEC9 /* ScrollingView.swift in Sources */,
 				9FD5B35C28831E4900D133F1 /* BottomTabView.swift in Sources */,
 				9FD5B35E2883207F00D133F1 /* BottomSheetView.swift in Sources */,
